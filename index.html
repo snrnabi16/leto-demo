@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1A213F">
+  <title>LETO — ресторан и караоке в Парке Горького, Казань</title>
+  <meta name="description" content="LETO в Парке Горького, Казань: меню, бронь стола, отзывы, Wi-Fi. ул. Николая Ершова, 5 · +7 (843) 202-20-20">
+  <meta property="og:title" content="LETO · Парк Горького, Казань">
+  <meta property="og:description" content="Меню, бронь стола, отзывы и Wi-Fi">
+  <meta property="og:image" content="assets/img/hero.jpg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="app">
+
+  <!-- HOME -->
+  <section id="home" class="page is-active">
+    <div class="hero">
+      <img class="hero__img" src="assets/img/hero.jpg" alt="Зал LETO: зелёная стена с вывеской, бирюзовые кресла, панорамные окна в парк">
+      <div class="hero__shade" aria-hidden="true"></div>
+      <div class="hero__rings" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <div class="hero__content">
+        <p class="eyebrow">Ресторан и караоке · Парк Горького</p>
+        <h1 class="brand"><img src="assets/leto-logo.svg" alt="LETO" width="1047" height="250"></h1>
+        <p class="status" id="status"><span class="status__dot"></span><span class="status__text">Ежедневно с 12:00</span></p>
+      </div>
+    </div>
+
+    <div class="home-body">
+      <nav class="actions" aria-label="Действия">
+        <a class="btn btn--sun" href="#menu">
+          <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3.6v5.8M7.5 3.6v5.8M10 3.6v5.8M5 9.4h5M7.5 9.4v11M15.5 20.4V10M15.5 3.8c2.5 0 3.6 1.8 3.6 4.3s-1.1 4.3-3.6 4.3"/></svg></span>
+          <span class="btn__text"><span class="btn__label">Меню</span><span class="btn__sub">Паназиатская и европейская кухня</span></span>
+          <span class="btn__chev" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></span>
+        </a>
+        <a class="btn" href="#book">
+          <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 9.5h17M8 3v4M16 3v4M8.5 14h3"/></svg></span>
+          <span class="btn__text"><span class="btn__label">Забронировать стол</span><span class="btn__sub">Звонок, почта, маршрут</span></span>
+          <span class="btn__chev" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></span>
+        </a>
+        <a class="btn" href="#review">
+          <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.6 14.4 9l5.8.5-4.4 3.8 1.3 5.7L12 16l-5.1 3 1.3-5.7-4.4-3.8L9.6 9z"/></svg></span>
+          <span class="btn__text"><span class="btn__label">Оставить отзыв</span><span class="btn__sub">Яндекс Карты или 2ГИС</span></span>
+          <span class="btn__chev" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></span>
+        </a>
+        <a class="btn" href="#wifi">
+          <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4.6 10.6a10.6 10.6 0 0 1 14.8 0M7.9 13.9a6 6 0 0 1 8.2 0"/><circle cx="12" cy="17.6" r="1.2" class="fill"/></svg></span>
+          <span class="btn__text"><span class="btn__label">Wi-Fi</span><span class="btn__sub">Сеть для гостей</span></span>
+          <span class="btn__chev" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></span>
+        </a>
+      </nav>
+
+      <div class="quick" aria-label="Быстрые ссылки">
+        <a href="tel:+78432022020"><svg viewBox="0 0 24 24"><path d="M6.6 3.8h2.6l1.4 4-2 1.4a11 11 0 0 0 6.2 6.2l1.4-2 4 1.4v2.6a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 6a2 2 0 0 1 2-2.2z"/></svg>Позвонить</a>
+        <a href="https://yandex.ru/maps/-/CCUFvRqSDD" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 21s-6.5-6.4-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.6 12 21 12 21z"/><circle cx="12" cy="9.8" r="2.3"/></svg>Маршрут</a>
+        <a href="https://instagram.com/leto.kzn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><rect x="3.8" y="3.8" width="16.4" height="16.4" rx="4.6"/><circle cx="12" cy="12" r="3.8"/><circle cx="16.9" cy="7.1" r=".9" class="fill"/></svg>Instagram</a>
+        <a href="https://vk.com/letokzn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M3.5 7.5h3c.4 3.6 2 5.6 3.3 6V7.5h2.9v3.6c1.3-.2 2.6-1.8 3-3.6h2.8c-.4 2.2-2 4-3.1 4.7 1.1.5 2.9 2 3.6 4.5h-3.1c-.6-1.7-1.9-3-3.2-3.1v3.1h-.4c-5 0-8.3-3.5-8.8-9.2z" class="fill"/></svg>VK</a>
+      </div>
+
+      <ul class="facts">
+        <li><b>130</b><span>мест на летней<br>веранде</span></li>
+        <li><b>05:00</b><span>до утра<br>в пт и сб</span></li>
+        <li><b>LETO&nbsp;BAND</b><span>живое<br>караоке</span></li>
+      </ul>
+
+      <div class="strip" aria-label="Атмосфера">
+        <figure><img src="assets/img/veranda.jpg" alt="Летняя веранда LETO" loading="lazy"><figcaption>Веранда</figcaption></figure>
+        <figure><img src="assets/img/hall.jpg" alt="Зал LETO" loading="lazy"><figcaption>Зал</figcaption></figure>
+        <figure><img src="assets/img/night.jpg" alt="Вечер в LETO" loading="lazy"><figcaption>Вечер</figcaption></figure>
+      </div>
+
+      <p class="addr">ул. Николая Ершова, 5 · ЦПКиО им. Горького, Казань</p>
+      <p class="addr"><a href="card.html">NFC-карта</a></p>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="page">
+    <header class="topbar">
+      <a class="back" href="#home" aria-label="Назад"><svg viewBox="0 0 24 24"><path d="M15 5 8 12l7 7"/></svg></a>
+      <img class="topbar__logo" src="assets/leto-logo.svg" alt="LETO">
+      <a class="topbar__act" href="tel:+78432022020" aria-label="Позвонить"><svg viewBox="0 0 24 24"><path d="M6.6 3.8h2.6l1.4 4-2 1.4a11 11 0 0 0 6.2 6.2l1.4-2 4 1.4v2.6a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 6a2 2 0 0 1 2-2.2z"/></svg></a>
+    </header>
+    <h1 class="title">Меню</h1>
+    <p class="intro">Паназиатская и европейская кухня. Подборка шефа:</p>
+    <div class="hls"><figure class="hl"><img src="assets/img/d-tataki.jpg" alt="Татаки из лосося" loading="lazy"><figcaption><span class="hl__name">Татаки из лосося</span><span class="hl__price">1 740 ₽</span></figcaption></figure><figure class="hl"><img src="assets/img/d-dragon.jpg" alt="Зелёный дракон" loading="lazy"><figcaption><span class="hl__name">Зелёный дракон</span><span class="hl__price">1 060 ₽</span></figcaption></figure><figure class="hl"><img src="assets/img/d-duck.jpg" alt="Утка по-пекински" loading="lazy"><figcaption><span class="hl__name">Утка по-пекински</span><span class="hl__price">2 500 ₽</span></figcaption></figure><figure class="hl"><img src="assets/img/d-tomyam.jpg" alt="Том ям" loading="lazy"><figcaption><span class="hl__name">Том ям</span><span class="hl__price">1 260 ₽</span></figcaption></figure><figure class="hl"><img src="assets/img/d-rib.jpg" alt="Томлёное ребро" loading="lazy"><figcaption><span class="hl__name">Томлёное ребро</span><span class="hl__price">2 440 ₽</span></figcaption></figure><figure class="hl"><img src="assets/img/d-dimsum.jpg" alt="Димсам сет на двоих" loading="lazy"><figcaption><span class="hl__name">Димсам сет на двоих</span><span class="hl__price">1 850 ₽</span></figcaption></figure></div>
+    <nav class="tabs" id="tabs" aria-label="Разделы меню"><a href="#m-raw">Raw</a><a href="#m-jp">Японская</a><a href="#m-salads">Салаты</a><a href="#m-hotstart">Закуски</a><a href="#m-soups">Супы</a><a href="#m-wok">Вок и паста</a><a href="#m-pizza">Пицца</a><a href="#m-mains">Горячее</a><a href="#m-grill">Гриль</a><a href="#m-desserts">Десерты</a><a href="#m-drinks">Напитки</a></nav>
+    <div class="menu">
+      <section class="menu-sec" id="m-raw"><h2>Raw и холодное</h2><h3 class="menu-sub">Тартары и татаки</h3><div class="dish"><span class="dish__name">Татаки лосось, понзу, томаты</span><i class="dish__dots"></i><span class="dish__price">1 740</span></div>
+<div class="dish"><span class="dish__name">Тартар из лосося, фисташковый террин</span><i class="dish__dots"></i><span class="dish__price">1 530</span></div>
+<div class="dish"><span class="dish__name">Тартар из говядины с трюфелем и пармезаном</span><i class="dish__dots"></i><span class="dish__price">1 010</span></div>
+<div class="dish"><span class="dish__name">Ассорти тартаров лосось, тунец, сибас</span><i class="dish__dots"></i><span class="dish__price">1 590</span></div><h3 class="menu-sub">Холодные закуски</h3><div class="dish"><span class="dish__name">Мраморный карп</span><i class="dish__dots"></i><span class="dish__price">2 900</span></div>
+<div class="dish"><span class="dish__name">Брускетта с камчатским крабом</span><i class="dish__dots"></i><span class="dish__price">2 180</span></div>
+<div class="dish"><span class="dish__name">Битые огурцы, кешью</span><i class="dish__dots"></i><span class="dish__price">620</span></div>
+<div class="dish"><span class="dish__name">Брускетта с лососем</span><i class="dish__dots"></i><span class="dish__price">1 710</span></div>
+<div class="dish"><span class="dish__name">Брускетта с говядиной</span><i class="dish__dots"></i><span class="dish__price">1 100</span></div></section>
+<section class="menu-sec" id="m-jp"><h2>Японская кухня</h2><h3 class="menu-sub">Роллы</h3><div class="dish"><span class="dish__name">Лосось в японском стиле</span><i class="dish__dots"></i><span class="dish__price">1 150</span></div>
+<div class="dish"><span class="dish__name">Лосось, авокадо</span><i class="dish__dots"></i><span class="dish__price">950</span></div>
+<div class="dish"><span class="dish__name">Спайси краб, авокадо</span><i class="dish__dots"></i><span class="dish__price">990</span></div>
+<div class="dish"><span class="dish__name">Филадельфия с лососем</span><i class="dish__dots"></i><span class="dish__price">1 610</span><span class="dish__desc">Лосось, сливочный сыр, авокадо, трюфельный соус</span></div>
+<div class="dish"><span class="dish__name">Калифорния с крабом</span><i class="dish__dots"></i><span class="dish__price">1 250</span><span class="dish__desc">Камчатский краб, огурец, авокадо, тобико, соус юдзу</span></div>
+<div class="dish"><span class="dish__name">Зелёный дракон</span><i class="dish__dots"></i><span class="dish__price">1 060</span><span class="dish__desc">Тигровая креветка, сливочный сыр, тобико, авокадо, огурец, соус унаги, тесто катаифи</span></div>
+<div class="dish"><span class="dish__name">Красный дракон</span><i class="dish__dots"></i><span class="dish__price">1 710</span><span class="dish__desc">Лосось, тигровая креветка, сливочный сыр, угорь, тесто катаифи, тобико</span></div>
+<div class="dish"><span class="dish__name">Золотой дракон</span><i class="dish__dots"></i><span class="dish__price">1 670</span><span class="dish__desc">Угорь, лосось, огурец, авокадо, тобико, соус унаги, тесто катаифи</span></div>
+<div class="dish"><span class="dish__name">Китайский красный</span><i class="dish__dots"></i><span class="dish__price">890</span><span class="dish__desc">Камчатский краб, креветка, авокадо, кимчи, соус унаги, айоли, сладкий чили</span></div>
+<div class="dish"><span class="dish__name">Креветка темпура</span><i class="dish__dots"></i><span class="dish__price">790</span><span class="dish__desc">Тигровая креветка, огурец, авокадо, шпинат, сливочный сыр, соус спайси, панировка фурикакэ</span></div>
+<div class="dish"><span class="dish__name">Кагаси с опалённым лососем</span><i class="dish__dots"></i><span class="dish__price">1 370</span><span class="dish__desc">Лосось, сливочный сыр, соус юдзу</span></div>
+<div class="dish"><span class="dish__name">Сахалин</span><i class="dish__dots"></i><span class="dish__price">2 060</span><span class="dish__desc">Камчатский краб, лосось, красная икра, авокадо, сладкий чили, терияки</span></div>
+<div class="dish"><span class="dish__name">Темпура с красной икрой</span><i class="dish__dots"></i><span class="dish__price">1 810</span><span class="dish__desc">Угорь, лосось, сливочный сыр, шпинат, красная икра</span></div>
+<div class="dish"><span class="dish__name">Темпура лосось-унаги</span><i class="dish__dots"></i><span class="dish__price">1 340</span><span class="dish__desc">Лосось, угорь, сливочный сыр, тобико, авокадо</span></div>
+<div class="dish"><span class="dish__name">Сет дракон</span><i class="dish__dots"></i><span class="dish__price">5 300</span><span class="dish__desc">Роллы: «Золотой», «Красный», «Зелёный» · суши: креветка, лосось, угорь</span></div>
+<div class="dish"><span class="dish__name">Сет LETO</span><i class="dish__dots"></i><span class="dish__price">10 800</span><span class="dish__desc">Роллы: Калифорния, Филадельфия, золотой дракон, китайский красный, хрустящий тунец, креветка темпура</span></div><h3 class="menu-sub">Хендроллы</h3><div class="dish"><span class="dish__name">Хендроллы с лососем</span><i class="dish__dots"></i><span class="dish__price">880</span></div>
+<div class="dish"><span class="dish__name">Хендроллы с тунцом</span><i class="dish__dots"></i><span class="dish__price">710</span></div>
+<div class="dish"><span class="dish__name">Хендроллы с угрем</span><i class="dish__dots"></i><span class="dish__price">710</span></div>
+<div class="dish"><span class="dish__name">Хендроллы с гребешком</span><i class="dish__dots"></i><span class="dish__price">710</span></div>
+<div class="dish"><span class="dish__name">Хендроллы с креветкой</span><i class="dish__dots"></i><span class="dish__price">710</span></div>
+<div class="dish"><span class="dish__name">Хендроллы с крабом</span><i class="dish__dots"></i><span class="dish__price">880</span></div><h3 class="menu-sub">Сашими</h3><div class="dish"><span class="dish__name">Сашими с лососем</span><i class="dish__dots"></i><span class="dish__price">920</span></div>
+<div class="dish"><span class="dish__name">Сашими с тунцом</span><i class="dish__dots"></i><span class="dish__price">830</span></div>
+<div class="dish"><span class="dish__name">Сашими с угрем</span><i class="dish__dots"></i><span class="dish__price">830</span></div>
+<div class="dish"><span class="dish__name">Сашими с гребешком</span><i class="dish__dots"></i><span class="dish__price">920</span></div><h3 class="menu-sub">Антисуши</h3><div class="dish"><span class="dish__name">Антисуши · гребешок</span><i class="dish__dots"></i><span class="dish__price">590</span></div>
+<div class="dish"><span class="dish__name">Антисуши · лосось</span><i class="dish__dots"></i><span class="dish__price">590</span></div>
+<div class="dish"><span class="dish__name">Антисуши · тунец</span><i class="dish__dots"></i><span class="dish__price">590</span></div>
+<div class="dish"><span class="dish__name">Антисуши · угорь</span><i class="dish__dots"></i><span class="dish__price">590</span></div><h3 class="menu-sub">Суши</h3><div class="dish"><span class="dish__name">Суши с лососем</span><i class="dish__dots"></i><span class="dish__price">450</span></div>
+<div class="dish"><span class="dish__name">Суши с гребешком</span><i class="dish__dots"></i><span class="dish__price">450</span></div>
+<div class="dish"><span class="dish__name">Суши с угрем</span><i class="dish__dots"></i><span class="dish__price">450</span></div>
+<div class="dish"><span class="dish__name">Суши с креветкой</span><i class="dish__dots"></i><span class="dish__price">450</span></div>
+<div class="dish"><span class="dish__name">Суши с тунцом</span><i class="dish__dots"></i><span class="dish__price">450</span></div><h3 class="menu-sub">Гунканы</h3><div class="dish"><span class="dish__name">Гунканы с лососем</span><i class="dish__dots"></i><span class="dish__price">460</span></div>
+<div class="dish"><span class="dish__name">Гунканы с тунцом</span><i class="dish__dots"></i><span class="dish__price">460</span></div>
+<div class="dish"><span class="dish__name">Гунканы с угрем</span><i class="dish__dots"></i><span class="dish__price">460</span></div>
+<div class="dish"><span class="dish__name">Гунканы с гребешком</span><i class="dish__dots"></i><span class="dish__price">460</span></div>
+<div class="dish"><span class="dish__name">Гунканы с креветкой</span><i class="dish__dots"></i><span class="dish__price">460</span></div>
+<div class="dish"><span class="dish__name">Гунканы с крабом</span><i class="dish__dots"></i><span class="dish__price">460</span></div></section>
+<section class="menu-sec" id="m-salads"><h2>Салаты</h2><div class="dish"><span class="dish__name">Тёплый салат с говядиной</span><i class="dish__dots"></i><span class="dish__price">1 490</span></div>
+<div class="dish"><span class="dish__name">Салат с морепродуктами и манго</span><i class="dish__dots"></i><span class="dish__price">1 630</span></div>
+<div class="dish"><span class="dish__name">Большой греческий</span><i class="dish__dots"></i><span class="dish__price">1 460</span></div>
+<div class="dish"><span class="dish__name">Салат с креветками, авокадо, шпинат</span><i class="dish__dots"></i><span class="dish__price">1 010</span></div>
+<div class="dish"><span class="dish__name">Салат с крабом, авокадо</span><i class="dish__dots"></i><span class="dish__price">2 220</span></div>
+<div class="dish"><span class="dish__name">Салат с телятиной, горчичная заправка, пармезан</span><i class="dish__dots"></i><span class="dish__price">890</span></div>
+<div class="dish"><span class="dish__name">Цезарь креветки</span><i class="dish__dots"></i><span class="dish__price">990</span></div>
+<div class="dish"><span class="dish__name">Цезарь курица</span><i class="dish__dots"></i><span class="dish__price">800</span></div>
+<div class="dish"><span class="dish__name">Микс с томатами, авокадо, киноа</span><i class="dish__dots"></i><span class="dish__price">930</span></div>
+<div class="dish"><span class="dish__name">Салат с хрустящей уткой и гранатом</span><i class="dish__dots"></i><span class="dish__price">940</span></div>
+<div class="dish"><span class="dish__name">Зелёный с пармезаном и соусом каламанси</span><i class="dish__dots"></i><span class="dish__price">940</span></div></section>
+<section class="menu-sec" id="m-hotstart"><h2>Закуски и димсамы</h2><h3 class="menu-sub">Горячие закуски</h3><div class="dish"><span class="dish__name">Корюшка балтийская с соусом тартар</span><i class="dish__dots"></i><span class="dish__price">950</span></div>
+<div class="dish"><span class="dish__name">Эдамамэ в соли</span><i class="dish__dots"></i><span class="dish__price">540</span></div>
+<div class="dish"><span class="dish__name">Эдамамэ чили гарлик</span><i class="dish__dots"></i><span class="dish__price">540</span></div>
+<div class="dish"><span class="dish__name">Креветки васаби</span><i class="dish__dots"></i><span class="dish__price">1 090</span></div>
+<div class="dish"><span class="dish__name">Креветки том ям</span><i class="dish__dots"></i><span class="dish__price">1 090</span></div>
+<div class="dish"><span class="dish__name">Поп-корн из креветок, соус айоли</span><i class="dish__dots"></i><span class="dish__price">830</span></div>
+<div class="dish"><span class="dish__name">Хрустящие баклажаны, томаты, сладкий чили</span><i class="dish__dots"></i><span class="dish__price">660</span></div>
+<div class="dish"><span class="dish__name">Мини чебуреки с крабом и креветкой</span><i class="dish__dots"></i><span class="dish__price">830</span></div><h3 class="menu-sub">Димсамы</h3><div class="dish"><span class="dish__name">Димсам с креветкой</span><i class="dish__dots"></i><span class="dish__price">620</span></div>
+<div class="dish"><span class="dish__name">Димсам с крабом</span><i class="dish__dots"></i><span class="dish__price">1 130</span></div>
+<div class="dish"><span class="dish__name">Креветка, гребешок</span><i class="dish__dots"></i><span class="dish__price">800</span></div>
+<div class="dish"><span class="dish__name">Баранина, паста чёрного трюфеля</span><i class="dish__dots"></i><span class="dish__price">610</span></div>
+<div class="dish"><span class="dish__name">Запечённый с говядиной</span><i class="dish__dots"></i><span class="dish__price">890</span></div>
+<div class="dish"><span class="dish__name">Гёдзе с цыплёнком</span><i class="dish__dots"></i><span class="dish__price">550</span></div>
+<div class="dish"><span class="dish__name">Димсам сет на одного</span><i class="dish__dots"></i><span class="dish__price">940</span></div>
+<div class="dish"><span class="dish__name">Димсам сет на двоих</span><i class="dish__dots"></i><span class="dish__price">1 850</span></div></section>
+<section class="menu-sec" id="m-soups"><h2>Супы</h2><div class="dish"><span class="dish__name">Рамен с уткой</span><i class="dish__dots"></i><span class="dish__price">820</span></div>
+<div class="dish"><span class="dish__name">Том ям</span><i class="dish__dots"></i><span class="dish__price">1 260</span></div>
+<div class="dish"><span class="dish__name">Вонтон</span><i class="dish__dots"></i><span class="dish__price">760</span></div>
+<div class="dish"><span class="dish__name">Куриная лапша</span><i class="dish__dots"></i><span class="dish__price">480</span></div>
+<div class="dish"><span class="dish__name">Борщ</span><i class="dish__dots"></i><span class="dish__price">720</span></div></section>
+<section class="menu-sec" id="m-wok"><h2>Вок и паста</h2><h3 class="menu-sub">Вок</h3><div class="dish"><span class="dish__name">Лапша по-сингапурски</span><i class="dish__dots"></i><span class="dish__price">720</span></div>
+<div class="dish"><span class="dish__name">Рис с морепродуктами</span><i class="dish__dots"></i><span class="dish__price">1 180</span></div>
+<div class="dish"><span class="dish__name">Удон с цыплёнком, японский соус</span><i class="dish__dots"></i><span class="dish__price">1 130</span></div><h3 class="menu-sub">Паста и равиоли</h3><div class="dish"><span class="dish__name">Паста с камчатским крабом</span><i class="dish__dots"></i><span class="dish__price">1 900</span></div>
+<div class="dish"><span class="dish__name">Спагетти карбонара с говяжьим беконом</span><i class="dish__dots"></i><span class="dish__price">1 250</span></div>
+<div class="dish"><span class="dish__name">Тальятелле с креветками в соусе томатный биск</span><i class="dish__dots"></i><span class="dish__price">1 570</span></div>
+<div class="dish"><span class="dish__name">Гарганелли с говяжьими щёчками в сливочно-трюфельном соусе</span><i class="dish__dots"></i><span class="dish__price">1 530</span></div></section>
+<section class="menu-sec" id="m-pizza"><h2>Пицца</h2><div class="dish"><span class="dish__name">Груша и горгонзола</span><i class="dish__dots"></i><span class="dish__price">1 440</span></div>
+<div class="dish"><span class="dish__name">Пепперони</span><i class="dish__dots"></i><span class="dish__price">1 040</span></div>
+<div class="dish"><span class="dish__name">Барбекю</span><i class="dish__dots"></i><span class="dish__price">1 770</span></div>
+<div class="dish"><span class="dish__name">Четыре сыра</span><i class="dish__dots"></i><span class="dish__price">1 210</span></div>
+<div class="dish"><span class="dish__name">Маргарита</span><i class="dish__dots"></i><span class="dish__price">990</span></div>
+<div class="dish"><span class="dish__name">Фокачча пармезан</span><i class="dish__dots"></i><span class="dish__price">410</span></div>
+<div class="dish"><span class="dish__name">Фокачча песто</span><i class="dish__dots"></i><span class="dish__price">410</span></div></section>
+<section class="menu-sec" id="m-mains"><h2>Горячее</h2><div class="dish"><span class="dish__name">Медальоны из говядины, картофельный гратен</span><i class="dish__dots"></i><span class="dish__price">2 160</span></div>
+<div class="dish"><span class="dish__name">Утиная грудка, пюре из молодой моркови, чатни из персиков</span><i class="dish__dots"></i><span class="dish__price">1 540</span></div>
+<div class="dish"><span class="dish__name">Утка по-пекински</span><i class="dish__dots"></i><span class="dish__price">2 500</span></div>
+<div class="dish"><span class="dish__name">Томлёное ребро в соусе «Бароло»</span><i class="dish__dots"></i><span class="dish__price">2 440</span></div>
+<div class="dish"><span class="dish__name">Бургер с мраморной говядиной</span><i class="dish__dots"></i><span class="dish__price">1 880</span></div>
+<div class="dish"><span class="dish__name">Стейк лосось, ризотто из булгура</span><i class="dish__dots"></i><span class="dish__price">2 310</span></div>
+<div class="dish"><span class="dish__name">Филе сибаса с авокадо, томатами и соусом сливочный мисо</span><i class="dish__dots"></i><span class="dish__price">1 820</span></div>
+<div class="dish"><span class="dish__name">Говяжьи щёчки с полбой</span><i class="dish__dots"></i><span class="dish__price">1 720</span></div>
+<div class="dish"><span class="dish__name">Филе судака с запечёнными овощами и сливочно-томатным соусом</span><i class="dish__dots"></i><span class="dish__price">1 640</span></div>
+<div class="dish"><span class="dish__name">Шаурма с камчатским крабом, авокадо, томатами и соусом айоли</span><i class="dish__dots"></i><span class="dish__price">1 520</span></div></section>
+<section class="menu-sec" id="m-grill"><h2>Гриль</h2><h3 class="menu-sub">Гриль</h3><div class="dish"><span class="dish__name">Каре ягнёнка</span><i class="dish__dots"></i><span class="dish__price">2 230</span></div>
+<div class="dish"><span class="dish__name">Филе миньон</span><i class="dish__dots"></i><span class="dish__price">2 230</span></div>
+<div class="dish"><span class="dish__name">Рибай</span><i class="dish__dots"></i><span class="dish__price">4 540</span></div>
+<div class="dish"><span class="dish__name">Стриплойн</span><i class="dish__dots"></i><span class="dish__price">3 010</span></div>
+<div class="dish"><span class="dish__name">Вырезка конины</span><i class="dish__dots"></i><span class="dish__price">1 860</span></div>
+<div class="dish"><span class="dish__name">Лосось</span><i class="dish__dots"></i><span class="dish__price">2 360</span></div>
+<div class="dish"><span class="dish__name">Дорадо</span><i class="dish__dots"></i><span class="dish__price">1 780</span></div>
+<div class="dish"><span class="dish__name">Сибас</span><i class="dish__dots"></i><span class="dish__price">1 780</span></div>
+<div class="dish"><span class="dish__name">Шашлык из баранины</span><i class="dish__dots"></i><span class="dish__price">2 050</span></div>
+<div class="dish"><span class="dish__name">Шашлык из говядины</span><i class="dish__dots"></i><span class="dish__price">2 050</span></div>
+<div class="dish"><span class="dish__name">Шашлык из курицы</span><i class="dish__dots"></i><span class="dish__price">1 030</span></div>
+<div class="dish"><span class="dish__name">Люля-кебаб из баранины</span><i class="dish__dots"></i><span class="dish__price">1 400</span></div>
+<div class="dish"><span class="dish__name">Люля-кебаб из курицы</span><i class="dish__dots"></i><span class="dish__price">1 060</span></div><h3 class="menu-sub">Гарниры</h3><div class="dish"><span class="dish__name">Кукуруза гриль</span><i class="dish__dots"></i><span class="dish__price">500</span></div>
+<div class="dish"><span class="dish__name">Овощи гриль</span><i class="dish__dots"></i><span class="dish__price">410</span></div>
+<div class="dish"><span class="dish__name">Печёный картофель</span><i class="dish__dots"></i><span class="dish__price">380</span></div>
+<div class="dish"><span class="dish__name">Батат фри</span><i class="dish__dots"></i><span class="dish__price">480</span></div><h3 class="menu-sub">Соусы</h3><div class="dish"><span class="dish__name">Соус трюфельный</span><i class="dish__dots"></i><span class="dish__price">140</span></div>
+<div class="dish"><span class="dish__name">Соус сырный</span><i class="dish__dots"></i><span class="dish__price">140</span></div>
+<div class="dish"><span class="dish__name">Соус сливочный том ям</span><i class="dish__dots"></i><span class="dish__price">140</span></div>
+<div class="dish"><span class="dish__name">Соус перечный</span><i class="dish__dots"></i><span class="dish__price">140</span></div>
+<div class="dish"><span class="dish__name">Соус терияки</span><i class="dish__dots"></i><span class="dish__price">140</span></div>
+<div class="dish"><span class="dish__name">Соус понзу</span><i class="dish__dots"></i><span class="dish__price">140</span></div></section>
+<section class="menu-sec" id="m-desserts"><h2>Десерты</h2><div class="dish"><span class="dish__name">Меренгата с фисташками</span><i class="dish__dots"></i><span class="dish__price">560</span></div>
+<div class="dish"><span class="dish__name">Шоколадное облако</span><i class="dish__dots"></i><span class="dish__price">890</span></div>
+<div class="dish"><span class="dish__name">Шоколадный фондан</span><i class="dish__dots"></i><span class="dish__price">830</span></div>
+<div class="dish"><span class="dish__name">Щербет</span><i class="dish__dots"></i><span class="dish__price">720</span></div>
+<div class="dish"><span class="dish__name">Вагаси моти</span><i class="dish__dots"></i><span class="dish__price">440</span><span class="dish__desc">Солёная карамель</span></div>
+<div class="dish"><span class="dish__name">Фруктовая тарелка</span><i class="dish__dots"></i><span class="dish__price">3 400</span></div>
+<div class="dish"><span class="dish__name">Ягодная тарелка</span><i class="dish__dots"></i><span class="dish__price">3 400</span></div>
+<div class="dish"><span class="dish__name">Медовик с фундуком</span><i class="dish__dots"></i><span class="dish__price">690</span></div>
+<div class="dish"><span class="dish__name">Чизкейк Сан-Себастьян с шоколадным соусом</span><i class="dish__dots"></i><span class="dish__price">580</span></div></section>
+<section class="menu-sec" id="m-drinks"><h2>Напитки</h2><div class="dish"><span class="dish__name">Кока-Кола</span><i class="dish__dots"></i><span class="dish__price">230</span><span class="dish__desc">330 мл</span></div>
+<div class="dish"><span class="dish__name">Спрайт</span><i class="dish__dots"></i><span class="dish__price">230</span><span class="dish__desc">330 мл</span></div>
+<div class="dish"><span class="dish__name">Бона Аква негазированная</span><i class="dish__dots"></i><span class="dish__price">220</span><span class="dish__desc">330 мл</span></div>
+<div class="dish"><span class="dish__name">Свежевыжатый сок · апельсин</span><i class="dish__dots"></i><span class="dish__price">480</span><span class="dish__desc">250 мл</span></div>
+<div class="dish"><span class="dish__name">Свежевыжатый сок · яблоко</span><i class="dish__dots"></i><span class="dish__price">460</span><span class="dish__desc">250 мл</span></div>
+<div class="dish"><span class="dish__name">Свежевыжатый сок · морковь</span><i class="dish__dots"></i><span class="dish__price">460</span><span class="dish__desc">250 мл</span></div>
+<div class="dish"><span class="dish__name">Свежевыжатый сок · грейпфрут</span><i class="dish__dots"></i><span class="dish__price">460</span><span class="dish__desc">250 мл</span></div>
+<div class="dish"><span class="dish__name">Свежевыжатый сок · сельдерей</span><i class="dish__dots"></i><span class="dish__price">530</span><span class="dish__desc">250 мл</span></div>
+<div class="dish"><span class="dish__name">Свежевыжатый сок · ананас</span><i class="dish__dots"></i><span class="dish__price">890</span><span class="dish__desc">250 мл</span></div>
+<div class="dish"><span class="dish__name">Ред Булл</span><i class="dish__dots"></i><span class="dish__price">370</span><span class="dish__desc">250 мл</span></div>
+<div class="dish"><span class="dish__name">Сок Рич в ассортименте</span><i class="dish__dots"></i><span class="dish__price">240</span><span class="dish__desc">200 мл</span></div>
+<div class="dish"><span class="dish__name">Клюквенный морс</span><i class="dish__dots"></i><span class="dish__price">250</span><span class="dish__desc">250 мл</span></div>
+<div class="dish"><span class="dish__name">Клюквенный морс</span><i class="dish__dots"></i><span class="dish__price">800</span><span class="dish__desc">1000 мл</span></div>
+<div class="dish"><span class="dish__name">Облепиховый морс</span><i class="dish__dots"></i><span class="dish__price">250</span><span class="dish__desc">250 мл</span></div>
+<div class="dish"><span class="dish__name">Облепиховый морс</span><i class="dish__dots"></i><span class="dish__price">800</span><span class="dish__desc">1000 мл</span></div>
+<div class="dish"><span class="dish__name">Детокс имбирь, лимон, мёд</span><i class="dish__dots"></i><span class="dish__price">160</span><span class="dish__desc">250 мл</span></div>
+<div class="dish"><span class="dish__name">Смузи манго, маракуйя, чиа</span><i class="dish__dots"></i><span class="dish__price">410</span><span class="dish__desc">250 мл</span></div>
+<div class="dish"><span class="dish__name">Американо</span><i class="dish__dots"></i><span class="dish__price">220</span><span class="dish__desc">100 мл</span></div>
+<div class="dish"><span class="dish__name">Капучино на растительном молоке</span><i class="dish__dots"></i><span class="dish__price">330</span><span class="dish__desc">250 мл</span></div>
+<div class="dish"><span class="dish__name">Боржоми</span><i class="dish__dots"></i><span class="dish__price">490</span><span class="dish__desc">500 мл</span></div>
+<div class="dish"><span class="dish__name">Капучино</span><i class="dish__dots"></i><span class="dish__price">240</span><span class="dish__desc">250 мл</span></div>
+<div class="dish"><span class="dish__name">Милкшейк шоколадный</span><i class="dish__dots"></i><span class="dish__price">350</span><span class="dish__desc">250 мл</span></div>
+<div class="dish"><span class="dish__name">Милкшейк Орео</span><i class="dish__dots"></i><span class="dish__price">550</span><span class="dish__desc">300 мл</span></div>
+<div class="dish"><span class="dish__name">Милкшейк Сникерс</span><i class="dish__dots"></i><span class="dish__price">550</span><span class="dish__desc">300 мл</span></div>
+<div class="dish"><span class="dish__name">Пиво б/а Стелла Артуа</span><i class="dish__dots"></i><span class="dish__price">320</span><span class="dish__desc">400 мл</span></div>
+<div class="dish"><span class="dish__name">Пиво б/а Клаусталер оригинал</span><i class="dish__dots"></i><span class="dish__price">460</span><span class="dish__desc">330 мл</span></div></section>
+      <p class="menu-note">Цены в рублях по меню доставки на restoleto.ru (ноябрь 2026). В зале цены и наличие уточняйте у официанта. Полное меню ресторана, бар и винная карта — на <a href="https://restoleto.ru/" target="_blank" rel="noopener">restoleto.ru</a>.</p>
+    </div>
+  </section>
+
+  <!-- REVIEW -->
+  <section id="review" class="page">
+    <header class="topbar">
+      <a class="back" href="#home" aria-label="Назад"><svg viewBox="0 0 24 24"><path d="M15 5 8 12l7 7"/></svg></a>
+      <img class="topbar__logo" src="assets/leto-logo.svg" alt="LETO">
+      <span class="topbar__spacer"></span>
+    </header>
+    <figure class="banner"><img src="assets/img/serve.jpg" alt="Подача блюд в LETO"></figure>
+    <h1 class="title">Как вам вечер?</h1>
+    <p class="intro">Поставьте оценку и выберите, где оставить отзыв. Это займёт минуту.</p>
+    <div class="stars" role="group" aria-label="Оценка от 1 до 5">
+      <button class="star" type="button" data-value="1" aria-label="1 из 5"><svg viewBox="0 0 24 24"><path d="M12 3.2 14.6 9l6.2.6-4.7 4.1 1.5 6.1L12 16.8 6.4 19.8 7.9 13.7 3.2 9.6 9.4 9z"/></svg></button><button class="star" type="button" data-value="2" aria-label="2 из 5"><svg viewBox="0 0 24 24"><path d="M12 3.2 14.6 9l6.2.6-4.7 4.1 1.5 6.1L12 16.8 6.4 19.8 7.9 13.7 3.2 9.6 9.4 9z"/></svg></button><button class="star" type="button" data-value="3" aria-label="3 из 5"><svg viewBox="0 0 24 24"><path d="M12 3.2 14.6 9l6.2.6-4.7 4.1 1.5 6.1L12 16.8 6.4 19.8 7.9 13.7 3.2 9.6 9.4 9z"/></svg></button><button class="star" type="button" data-value="4" aria-label="4 из 5"><svg viewBox="0 0 24 24"><path d="M12 3.2 14.6 9l6.2.6-4.7 4.1 1.5 6.1L12 16.8 6.4 19.8 7.9 13.7 3.2 9.6 9.4 9z"/></svg></button><button class="star" type="button" data-value="5" aria-label="5 из 5"><svg viewBox="0 0 24 24"><path d="M12 3.2 14.6 9l6.2.6-4.7 4.1 1.5 6.1L12 16.8 6.4 19.8 7.9 13.7 3.2 9.6 9.4 9z"/></svg></button>
+    </div>
+    <p class="rating-hint" id="rating-hint" aria-live="polite">&nbsp;</p>
+    <div class="links">
+      <a class="btn btn--plain" href="https://yandex.ru/maps/org/leto/117628260091/reviews/" target="_blank" rel="noopener">
+        <span class="svc svc--yandex" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.8c-3.6 0-6.5 2.8-6.5 6.6 0 4.6 6.5 11.8 6.5 11.8s6.5-7.2 6.5-11.8c0-3.8-2.9-6.6-6.5-6.6zm0 9a2.4 2.4 0 1 1 0-4.8 2.4 2.4 0 0 1 0 4.8z"/></svg></span>
+        <span class="btn__text"><span class="btn__label">Яндекс Карты</span><span class="btn__sub">5,0 · 5 147 оценок</span></span>
+        <span class="btn__chev" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+      </a>
+      <a class="btn btn--plain" href="https://2gis.ru/kazan/firm/2956015536445311/tab/reviews" target="_blank" rel="noopener">
+        <span class="svc svc--gis" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8.2 8c.2-2.05 1.9-3.45 4.25-3.45 2.4 0 4.15 1.4 4.15 3.45 0 1.9-1.05 2.95-3.35 4.4L9 15.4v.2h8.1"/></svg></span>
+        <span class="btn__text"><span class="btn__label">2ГИС</span><span class="btn__sub">4,8 · 1 625 оценок</span></span>
+        <span class="btn__chev" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+      </a>
+    </div>
+    <p class="foot">Рейтинги по данным площадок на 17.11.2026</p>
+  </section>
+
+  <!-- BOOK / CONTACTS -->
+  <section id="book" class="page">
+    <header class="topbar">
+      <a class="back" href="#home" aria-label="Назад"><svg viewBox="0 0 24 24"><path d="M15 5 8 12l7 7"/></svg></a>
+      <img class="topbar__logo" src="assets/leto-logo.svg" alt="LETO">
+      <span class="topbar__spacer"></span>
+    </header>
+    <figure class="banner banner--short"><img src="assets/img/veranda.jpg" alt="Летняя веранда LETO"></figure>
+    <h1 class="title">Бронь и контакты</h1>
+    <p class="intro">Резерв стола по телефону. В пятницу и субботу лучше бронировать заранее.</p>
+    <div class="links">
+      <a class="btn btn--sun" href="tel:+78432022020">
+        <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6.6 3.8h2.6l1.4 4-2 1.4a11 11 0 0 0 6.2 6.2l1.4-2 4 1.4v2.6a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 6a2 2 0 0 1 2-2.2z"/></svg></span>
+        <span class="btn__text"><span class="btn__label">+7 (843) 202-20-20</span><span class="btn__sub">Позвонить и забронировать</span></span>
+        <span class="btn__chev" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="btn btn--plain" href="mailto:reserv@restoleto.ru?subject=%D0%91%D1%80%D0%BE%D0%BD%D1%8C%20%D1%81%D1%82%D0%BE%D0%BB%D0%B0">
+        <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="13" rx="2.5"/><path d="m4.5 7 7.5 6 7.5-6"/></svg></span>
+        <span class="btn__text"><span class="btn__label">reserv@restoleto.ru</span><span class="btn__sub">Бронь по почте</span></span>
+        <span class="btn__chev" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="btn btn--plain" href="https://yandex.ru/maps/-/CCUFvRqSDD" target="_blank" rel="noopener">
+        <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21s-6.5-6.4-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.6 12 21 12 21z"/><circle cx="12" cy="9.8" r="2.3"/></svg></span>
+        <span class="btn__text"><span class="btn__label">ул. Николая Ершова, 5</span><span class="btn__sub">ЦПКиО им. Горького · маршрут</span></span>
+        <span class="btn__chev" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+      </a>
+    </div>
+    <div class="card-info">
+      <h2>Часы работы</h2>
+      <dl class="hours">
+        <div data-days="0,1,2,3,4"><dt>Воскресенье — четверг</dt><dd>12:00 — 00:00</dd></div>
+        <div data-days="5,6"><dt>Пятница, суббота</dt><dd>12:00 — 05:00</dd></div>
+        <div><dt>Доставка, ежедневно</dt><dd>12:00 — 22:00</dd></div>
+      </dl>
+      <h2>Парковка</h2>
+      <p>Въезд со стороны улицы Подлужной, через шлагбаум.</p>
+    </div>
+    <div class="socials">
+      <a href="https://instagram.com/leto.kzn" target="_blank" rel="noopener">Instagram<span>@leto.kzn</span></a>
+      <a href="https://vk.com/letokzn" target="_blank" rel="noopener">ВКонтакте<span>letokzn</span></a>
+      <a href="https://restoleto.ru/" target="_blank" rel="noopener">Сайт<span>restoleto.ru</span></a>
+    </div>
+  </section>
+
+  <!-- WIFI -->
+  <section id="wifi" class="page">
+    <header class="topbar">
+      <a class="back" href="#home" aria-label="Назад"><svg viewBox="0 0 24 24"><path d="M15 5 8 12l7 7"/></svg></a>
+      <img class="topbar__logo" src="assets/leto-logo.svg" alt="LETO">
+      <span class="topbar__spacer"></span>
+    </header>
+    <figure class="banner banner--short"><img src="assets/img/hall.jpg" alt="Зал LETO"></figure>
+    <h1 class="title">Wi-Fi для гостей</h1>
+    <p class="intro">Выберите сеть в настройках телефона и вставьте пароль.</p>
+    <div class="wifi">
+      <div class="wifi__row">
+        <div class="wifi__text"><span class="wifi__label">Сеть</span><span class="wifi__value">LETO_Guest</span></div>
+        <button class="copy" type="button" data-copy="LETO_Guest" aria-label="Скопировать имя сети"><svg viewBox="0 0 24 24" class="i-copy"><rect x="8.5" y="8.5" width="11" height="11" rx="2"/><path d="M6 15.5h-.5A2.5 2.5 0 0 1 3 13V5.5A2.5 2.5 0 0 1 5.5 3H13a2.5 2.5 0 0 1 2.5 2.5V6"/></svg><svg viewBox="0 0 24 24" class="i-check" hidden><path d="M5 12.5 10 17.5 19 7.5"/></svg></button>
+      </div>
+      <div class="wifi__row">
+        <div class="wifi__text"><span class="wifi__label">Пароль</span><span class="wifi__value">leto2026</span></div>
+        <button class="copy copy--wide" type="button" data-copy="leto2026" aria-label="Скопировать пароль"><svg viewBox="0 0 24 24" class="i-copy"><rect x="8.5" y="8.5" width="11" height="11" rx="2"/><path d="M6 15.5h-.5A2.5 2.5 0 0 1 3 13V5.5A2.5 2.5 0 0 1 5.5 3H13a2.5 2.5 0 0 1 2.5 2.5V6"/></svg><svg viewBox="0 0 24 24" class="i-check" hidden><path d="M5 12.5 10 17.5 19 7.5"/></svg><span class="copy__txt" data-done="Скопировано">Копировать</span></button>
+      </div>
+    </div>
+    <ol class="steps">
+      <li>Откройте «Настройки» → Wi-Fi</li>
+      <li>Выберите сеть <b>LETO_Guest</b></li>
+      <li>Вставьте скопированный пароль</li>
+    </ol>
+    <p class="foot">демо · имя сети и пароль — заглушки, заменить на реальные</p>
+  </section>
+
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="assets/app.js"></script>
+</body>
+</html>
